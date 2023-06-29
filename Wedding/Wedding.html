@@ -69,13 +69,13 @@
 }
 .BB {
   background-color: transparent; /* Green */
-  font-size: 14px;
+  font-size: 30px;
   border: none;
 }
-.three { object-fit: contain; z-index: 1; left: 10px; }
-.fa-music { object-fit: contain; z-index: 2; right: 21.5px;  color:#11845f }
-.fa-play { object-fit: contain; z-index: 2; right: 18.5px;  color:#11845f }
-.fa-pause { object-fit: contain; z-index: 2; right: 20px;  color:#11845f }
+.three { object-fit: contain; z-index: 1; left: 25px; }
+.fa-music { object-fit: contain; z-index: 2; right: 39px; top: 3px;  color:#11845f }
+.fa-play { object-fit: contain; z-index: 2; right: 33px;  color:#11845f }
+.fa-pause { object-fit: contain; z-index: 2; right: 36px;  color:#11845f }
 </style>
 
 <style>
@@ -127,13 +127,6 @@
 			id="menu"
 		>
 			<ul>
-					<li>
-						<audio id="myAudio" src="audio.mp3" ></audio>
-						<button class="BB"  id="audioButton" onclick="toggleAudio()">
-							<img class="three" src="vibes2.gif" width="40">
-							<i id="audioIcon" class="fas fa-music"></i>
-						</button>
-					</li>
 									<li class="smooth-scroll">
 						<a href="#section-guest">Шақыру</a>
 					</li>
@@ -166,6 +159,11 @@
 
 			<h2>
 				22.08.2023			</h2>
+				<center><audio id="myAudio" src="audio.mp3" ></audio>
+						<button class="BB"  id="audioButton" onclick="toggleAudio()">
+							<img class="three" src="vibes2.gif" width="80">
+							<i id="audioIcon" class="fas fa-music"></i>
+						</button></center>
 		</div>
 
 		<div
